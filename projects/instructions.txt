@@ -1,0 +1,6 @@
+ssh -i Testing_admin.pem ubuntu@ec2-18-218-87-138.us-east-2.compute.amazonaws.com
+source homehub/bin/activate
+gunicorn homehub:app
+HomeHubUser
+Admin
+ssh pi@216.171.57.184
